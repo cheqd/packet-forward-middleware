@@ -13,7 +13,7 @@ message GenesisState { Params params = 1 [ (gogoproto.nullable) = false ]; }
 message Params {
   string fee_percentage = 1 [
     (gogoproto.moretags) = "yaml:\"fee_percentage\"",
-    (gogoproto.customtype) = "github.com/cosmos/cosmos-sdk/types.Dec",
+    (gogoproto.customtype) = "github.com/cheqd/cosmos-sdk/types.Dec",
     (gogoproto.nullable) = false
   ];
 }

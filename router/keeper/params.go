@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/cheqd/cosmos-sdk/types"
 	"github.com/strangelove-ventures/packet-forward-middleware/v2/router/types"
 )
 
